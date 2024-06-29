@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.createTextContainer,
+.printHighlightText {
+  width: 350px;
+  font-size: 12px;
+}
+
+.copyTextarea,
+.copyTextContainer {
+  width: 350px;
+  margin: 0 30px;
+  font-size: 12px;
+}
+
+.searchBtn,
+.bgWhite,
+.addBtn,
+.resetBtn,
+.search-btn,
+.inputBtn {
+  width: 100px;
+  margin: 10px auto;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.3);
+  background-color: #fff;
+  border: solid 1px rgb(202, 202, 202, 0.75);
+  border-radius: 5px;
+  height: 30px;
+}
+
+.bgBlue {
+  width: 100px;
+  margin: 10px auto;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 30px;
+  background-color: rgb(165 243 252);
+}
+
+.typeBtn {
+  width: fit-content;
+  column-gap: 0.5rem;
+  margin: 3px 5px;
+  padding: 3px 5px;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.typeBtn.selected {
+  background-color: rgb(165 243 252);
+}
+
+.printTextArea {
+  font-size: 10px;
+  width: 350px;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+}
+
+.printText {
+  white-space: pre-wrap;
+  padding: 5px;
+  /* border-radius: 3px; */
+  /* border: solid 0.5px #000; */
+  margin: 5px;
+  width: 350px;
+  height: 100px;
+}
+
+.selectText {
+  width: 350px;
+  background-color: gray;
+  color: #fff;
+  border-radius: 3px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.lawPrintText {
+  white-space: pre-wrap;
+  padding: 5px;
+  /* border-radius: 3px; */
+  /* border: solid 0.5px #000; */
+  margin: 5px;
+  width: 350px;
+  height: 50px;
+}
+
+.inputText {
+  border-bottom-color: #e20000;
+}
+
+.detailText {
+  width: 100%;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  height: 25px;
+  padding: 3px;
+}
+
+.textContainer {
+  display: flex;
+}
+
+.deleteBtn {
+  display: block;
+  width: 20px;
+  font-size: 15px;
+  height: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 0;
+  margin: 0 0 0 auto;
+}
+
+.smallText {
+  margin-top: 13px;
+}
+
+.isCopy {
+  color: #e20000;
+  font-size: 10px;
+}
