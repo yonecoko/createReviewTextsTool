@@ -14,6 +14,7 @@ const nextConfig = {
     NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID:
       process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
   },
+  output: "export",
 };
 
 export default nextConfig;
