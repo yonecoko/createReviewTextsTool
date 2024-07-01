@@ -348,7 +348,7 @@ export default function lawsPrintText() {
         ) : (
           <>
             {printTexts.map((printText, i) => (
-              <div className={styles.printTextArea} key={printText}>
+              <div className={styles.printTextArea} key={i}>
                 <textarea
                   className={styles.lawPrintText}
                   value={printText}
