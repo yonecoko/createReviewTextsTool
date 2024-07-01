@@ -206,6 +206,8 @@ export default function ReviewsPrintTexts(props: Props) {
       : "修正後の連絡は不要でございます。\n\n";
   };
 
+  const [copyText, setCopyText] = useState("");
+
   const copyAllText = async () => {
     let count = 0;
 
@@ -231,6 +233,7 @@ export default function ReviewsPrintTexts(props: Props) {
         ? await navigator.clipboard.writeText(allText)
         : await navigator.clipboard.writeText(tiktokText);
       setIsCopy(true);
+      setCopyText(allText);
     } catch (err) {
       console.error("コピーできません: ", err);
     }

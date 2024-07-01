@@ -4,8 +4,9 @@ import styles from "./highlightTextArea.module.css";
 
 export default function CopyText() {
   return (
-    <div className={styles.copyTextContainer}>
-      <textarea className={styles.copyTextarea} />
+    <div>
+      <div className={styles.wrightArea}>メモ帳</div>
+      <textarea className={styles.copyTextarea} id="copyText" />
     </div>
   );
 }

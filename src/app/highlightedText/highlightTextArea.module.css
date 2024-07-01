@@ -10,11 +10,17 @@
   font-size: 12px;
 }
 
-.copyTextarea,
-.copyTextContainer {
+.copyTextarea {
   width: 350px;
   margin: 0 30px;
   font-size: 12px;
+  height: 500px;
+  border: solid 1px rgb(202, 202, 202, 0.75);
+  border-radius: 5px;
+}
+
+.wrightArea {
+  font-size: 14px;
 }
 
 .searchBtn,
