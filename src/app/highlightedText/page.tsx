@@ -158,7 +158,7 @@ export default function HighlightTextPage() {
           {reviewComponent()}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Item Three
+          現在開発中です。
         </CustomTabPanel>
       </div>
       <CopyText />

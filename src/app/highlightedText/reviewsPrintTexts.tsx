@@ -57,7 +57,6 @@ export default function ReviewsPrintTexts(props: Props) {
             (doc) => doc.data() as DocumentData
           );
 
-          console.log(typeData);
           typeData.map((doc) => {
             switch (doc.type) {
               case "薬機法":
